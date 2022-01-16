@@ -7,7 +7,7 @@ while contador <= 1000:
 
     try:
         if contador == 500:
-            resultado = 1+1
+            resultado = (0/0)
     except NameError:
         print('Error Controlado!')
     except ZeroDivisionError as errorsito:
