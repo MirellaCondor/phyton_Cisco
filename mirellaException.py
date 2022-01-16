@@ -1,0 +1,2 @@
+class MirellaException(Exception):
+    pass
